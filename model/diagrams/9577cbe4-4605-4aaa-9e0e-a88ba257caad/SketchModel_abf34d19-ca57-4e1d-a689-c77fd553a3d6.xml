@@ -1,78 +1,9 @@
 <archimate:SketchModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Student Access Scenarios"
+    name="Sample Student Data Authorization by Departmental Affiliation"
     id="abf34d19-ca57-4e1d-a689-c77fd553a3d6"
     background="0">
-  <children
-      xsi:type="archimate:DiagramModelGroup"
-      id="1364b473-6b11-4e86-a645-43759991bb74"
-      name="Student A's Program"
-      targetConnections="8440af33-c449-4873-a76c-efa7b28c6c3b 03da86ff-4bc0-4b89-a2ae-a4f8a6104b40 a11997fe-caa7-4843-881c-dd794b3e153e">
-    <bounds
-        x="828"
-        y="120"
-        width="374"
-        height="528"/>
-    <children
-        xsi:type="archimate:SketchModelSticky"
-        id="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
-        name="Sticky"
-        targetConnections="337acee7-43ac-46ea-b628-0bc90d6c30ab"
-        lineColor="#5c5c5c"
-        textAlignment="1"
-        fillColor="#b5ffff"
-        content="Bachelor of Engineering">
-      <bounds
-          x="36"
-          y="180"
-          width="181"
-          height="204"/>
-      <children
-          xsi:type="archimate:SketchModelSticky"
-          id="70532e7d-9087-48f4-9dd9-2a3972401edd"
-          name="Sticky"
-          lineColor="#5c5c5c"
-          textAlignment="1"
-          fillColor="#80ffff"
-          content="Major in Chemical Engineering">
-        <bounds
-            x="24"
-            y="41"
-            width="135"
-            height="70"/>
-      </children>
-      <children
-          xsi:type="archimate:SketchModelSticky"
-          id="812844db-cadf-4fd4-83d7-945888a66dc5"
-          name="Sticky"
-          lineColor="#5c5c5c"
-          textAlignment="1"
-          fillColor="#80ffff"
-          content="Minor in Biomedical Engineering">
-        <bounds
-            x="24"
-            y="120"
-            width="135"
-            height="70"/>
-      </children>
-    </children>
-    <children
-        xsi:type="archimate:SketchModelActor"
-        id="8d7c5067-60b5-4597-a11b-3aff808680e3"
-        name="Student A">
-      <sourceConnections
-          id="337acee7-43ac-46ea-b628-0bc90d6c30ab"
-          source="8d7c5067-60b5-4597-a11b-3aff808680e3"
-          target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
-          type="1"/>
-      <bounds
-          x="288"
-          y="228"
-          width="75"
-          height="100"/>
-    </children>
-  </children>
   <children
       xsi:type="archimate:SketchModelSticky"
       id="e314c1df-5346-487b-8f72-3056e9d35c7f"
@@ -82,10 +13,10 @@
       fillColor="#ffff00"
       content="Faculty of Engineering">
     <bounds
-        x="60"
-        y="120"
-        width="397"
-        height="240"/>
+        x="12"
+        y="96"
+        width="313"
+        height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
         id="084692fe-1345-4ac4-83b9-715d9aaa869d"
@@ -93,122 +24,47 @@
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#ffff80"
-        content="Department of Chemical Engineering">
+        content="Dept. of Chemical Engineering">
       <bounds
           x="24"
           y="36"
-          width="229"
-          height="180"/>
+          width="169"
+          height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
           id="aa523715-b5ee-43a3-a69e-97549a332822"
-          name="Dept Administrator X">
+          name="Dept Staff">
         <sourceConnections
             id="a11997fe-caa7-4843-881c-dd794b3e153e"
-            name="authorized by major"
+            name="authorized via major"
+            lineColor="#008000"
             source="aa523715-b5ee-43a3-a69e-97549a332822"
-            target="1364b473-6b11-4e86-a645-43759991bb74"
-            type="5"/>
+            target="70532e7d-9087-48f4-9dd9-2a3972401edd"
+            type="1"/>
         <bounds
-            x="50"
-            y="48"
-            width="119"
-            height="100"/>
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
       </children>
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
         id="caf31dc8-e967-49ea-a5a4-232225906e6a"
-        name="Faculty Advisor">
+        name="Faculty Staff">
       <sourceConnections
           id="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40"
-          name="authorized by degree"
+          name="authorized via degree"
+          lineColor="#008000"
           source="caf31dc8-e967-49ea-a5a4-232225906e6a"
-          target="1364b473-6b11-4e86-a645-43759991bb74"
-          type="5"/>
+          target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+          type="1"/>
       <bounds
-          x="276"
-          y="24"
-          width="97"
-          height="100"/>
+          x="216"
+          y="12"
+          width="73"
+          height="60"/>
     </children>
-  </children>
-  <children
-      xsi:type="archimate:SketchModelSticky"
-      id="0c43db1c-8da7-4d96-9733-5d584d256d27"
-      name="Sticky"
-      lineColor="#5c5c5c"
-      textAlignment="1"
-      fillColor="#ffff00"
-      content="Interfaculty Studies">
-    <bounds
-        x="60"
-        y="408"
-        width="397"
-        height="240"/>
-    <children
-        xsi:type="archimate:SketchModelSticky"
-        id="48c9cf96-7f8c-4a9c-aabe-7f8f53673236"
-        name="Sticky"
-        lineColor="#5c5c5c"
-        textAlignment="1"
-        fillColor="#ffff80"
-        content="Department of Biomedical  Engineering">
-      <bounds
-          x="24"
-          y="36"
-          width="229"
-          height="180"/>
-      <children
-          xsi:type="archimate:SketchModelActor"
-          id="c7a8887e-438a-4455-8262-7cb11c297a2b"
-          name="Dept Adminsitrator Y">
-        <sourceConnections
-            id="8440af33-c449-4873-a76c-efa7b28c6c3b"
-            name="authorized by minor"
-            source="c7a8887e-438a-4455-8262-7cb11c297a2b"
-            target="1364b473-6b11-4e86-a645-43759991bb74"
-            type="5"/>
-        <bounds
-            x="50"
-            y="48"
-            width="119"
-            height="100"/>
-      </children>
-    </children>
-    <children
-        xsi:type="archimate:SketchModelActor"
-        id="f6284835-af83-4135-9a16-91c8aa786d10"
-        name="Faculty Advisor?">
-      <sourceConnections
-          id="a927b93d-4f61-46c9-a996-b30394f05c60"
-          name="not authorized (no association)"
-          source="f6284835-af83-4135-9a16-91c8aa786d10"
-          target="7594e6c8-df92-4ff4-a43f-c6f30a6d715c"
-          type="5"/>
-      <bounds
-          x="276"
-          y="24"
-          width="97"
-          height="100"/>
-    </children>
-  </children>
-  <children
-      xsi:type="archimate:SketchModelSticky"
-      id="7594e6c8-df92-4ff4-a43f-c6f30a6d715c"
-      name="Sticky"
-      targetConnections="a927b93d-4f61-46c9-a996-b30394f05c60"
-      font="1|Segoe UI Black|20.0|0|WINDOWS|1|-40|0|0|0|900|0|0|0|0|3|2|1|34|Segoe UI Black"
-      fontColor="#ff0000"
-      lineColor="#5c5c5c"
-      fillColor="#ffffff"
-      content="X"
-      textPosition="1">
-    <bounds
-        x="782"
-        y="432"
-        width="47"
-        height="48"/>
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
@@ -218,11 +74,460 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#f4f4f4"
-      content="Sample Access Scenarios">
+      content="General Authorization Model by Departmental Affiliation (no roles)">
     <bounds
-        x="60"
-        y="36"
-        width="1142"
+        x="12"
+        y="12"
+        width="889"
         height="48"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ddffff"
+      content="Student A Record">
+    <sourceConnections
+        id="337acee7-43ac-46ea-b628-0bc90d6c30ab"
+        name="registered"
+        source="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+        target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+        type="2"/>
+    <bounds
+        x="768"
+        y="204"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="56acb314-384e-4ad4-96d8-806b834f18e3"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ddffff"
+      content="Student B Record">
+    <sourceConnections
+        id="5ae71b17-2472-4846-886a-0525acf0da48"
+        name="registered"
+        source="56acb314-384e-4ad4-96d8-806b834f18e3"
+        target="01f6be3a-fcf7-4786-9181-56436171c095"
+        type="2"/>
+    <bounds
+        x="768"
+        y="672"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="1f098b0d-990a-4e0c-abbc-29f6fd603c43"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Interfaculty Studies">
+    <bounds
+        x="12"
+        y="264"
+        width="313"
+        height="156"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="e6c14d70-4fa7-4413-bb6a-4adc34d4c1de"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Dept. of Biomedical Engineering">
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="96a3c4c9-3838-4115-9539-540a30d0675c"
+          name="Dept Staff">
+        <sourceConnections
+            id="8440af33-c449-4873-a76c-efa7b28c6c3b"
+            name="authorized via minor"
+            lineColor="#008000"
+            source="96a3c4c9-3838-4115-9539-540a30d0675c"
+            target="812844db-cadf-4fd4-83d7-945888a66dc5"
+            type="1">
+          <bendpoints
+              startX="434"
+              startY="19"
+              endX="-6"
+              endY="86"/>
+        </sourceConnections>
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
+        name="Faculty Staff">
+      <sourceConnections
+          id="16f1e0ea-848a-4d39-94f7-7f422ec73097"
+          name="authorized via dept. link?"
+          fontColor="#800000"
+          lineColor="#ff0000"
+          source="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
+          target="812844db-cadf-4fd4-83d7-945888a66dc5"
+          type="18"/>
+      <bounds
+          x="216"
+          y="12"
+          width="73"
+          height="60"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="6928effd-1cb1-4ce9-9675-a5fffc02a0a9"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Faculty of Science">
+    <bounds
+        x="12"
+        y="456"
+        width="313"
+        height="156"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="a6ab396b-54ed-4ae1-9677-625f45da3b38"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Dept. of Biology">
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="9313194a-4d76-46ac-aedc-9c198575a5a8"
+          name="Dept Admin">
+        <sourceConnections
+            id="bd77e091-b56a-4d07-adbe-976a9a0c6b32"
+            name="authorized via minor"
+            lineColor="#008000"
+            source="9313194a-4d76-46ac-aedc-9c198575a5a8"
+            target="6171858e-349e-4b55-8ac6-a2e36303a843"
+            type="1">
+          <bendpoints
+              startX="266"
+              startY="19"
+              endX="-174"
+              endY="-58"/>
+          <bendpoints
+              startX="266"
+              startY="79"
+              endX="-174"
+              endY="2"/>
+        </sourceConnections>
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="46e0131c-078e-4c87-81ac-0aec37b6032a"
+        name="Faculty Staff">
+      <sourceConnections
+          id="b0cfc55f-0c41-4708-ac0d-3d4011f1c448"
+          name="authorized via degree"
+          lineColor="#008000"
+          source="46e0131c-078e-4c87-81ac-0aec37b6032a"
+          target="01f6be3a-fcf7-4786-9181-56436171c095"
+          type="1">
+        <bendpoints
+            startX="288"
+            startY="7"
+            endX="-29"
+            endY="-192"/>
+      </sourceConnections>
+      <bounds
+          x="216"
+          y="12"
+          width="73"
+          height="60"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="2b0044dc-6a65-495c-895e-15852dd86e52"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Faculty of Agricultural and Environmental Sciences">
+    <bounds
+        x="12"
+        y="624"
+        width="313"
+        height="264"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="68fe50ff-e611-4cdb-9b74-2d8f89a03129"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="School of Nutrition">
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="daf05cea-ec33-473d-a75e-8f446bb06eb3"
+          name="Dept Staff">
+        <sourceConnections
+            id="5a03841c-846b-46e2-b778-03165cd18e15"
+            name="authorized via major"
+            lineColor="#008000"
+            source="daf05cea-ec33-473d-a75e-8f446bb06eb3"
+            target="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+            type="1"/>
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="b1b3cdd3-0b05-476c-b852-e230ceb65275"
+        name="Faculty Staff">
+      <sourceConnections
+          id="b94c408d-c2c1-4047-b270-230fd73a5cf8"
+          name="auth via dept link?"
+          fontColor="#800000"
+          lineColor="#ff0000"
+          source="b1b3cdd3-0b05-476c-b852-e230ceb65275"
+          target="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+          type="18"/>
+      <bounds
+          x="216"
+          y="12"
+          width="73"
+          height="60"/>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="37df1666-4542-4215-b34d-863335a1dac9"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Dept. of Plant Science">
+      <bounds
+          x="24"
+          y="144"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="3f4a5c90-3416-4a94-b492-5f1e6c0b1e59"
+          name="Dept Staff">
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="27fe6467-d7a6-406b-ab74-610205425b1b"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffc400"
+      content="AEHE Admininstrator">
+    <bounds
+        x="924"
+        y="180"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="7b453cd4-2238-41b7-9ef8-396b4eeeaeed"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffc400"
+      content="CEQ Approver">
+    <bounds
+        x="924"
+        y="264"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="02e3af39-7005-4ddf-8d05-6badfa0c591c"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffc400"
+      content="Student Advisor">
+    <bounds
+        x="924"
+        y="96"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="d667d694-f5ae-4ab4-8fc7-ed77349c487f"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffc400"
+      content="Graduate Program Coordinator">
+    <bounds
+        x="924"
+        y="348"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="834d044d-911a-4e85-9a17-8180b1c36fba"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffc400"
+      content="Graduate Program Director">
+    <bounds
+        x="924"
+        y="432"
+        width="135"
+        height="70"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="01f6be3a-fcf7-4786-9181-56436171c095"
+      name="Sticky"
+      targetConnections="b0cfc55f-0c41-4708-ac0d-3d4011f1c448 5ae71b17-2472-4846-886a-0525acf0da48"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="Bachelor of Science">
+    <bounds
+        x="492"
+        y="552"
+        width="181"
+        height="301"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+        name="Sticky"
+        targetConnections="5a03841c-846b-46e2-b778-03165cd18e15 b94c408d-c2c1-4047-b270-230fd73a5cf8"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Major in Nutrition">
+      <bounds
+          x="24"
+          y="120"
+          width="135"
+          height="70"/>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="19fe5123-8bc1-4ece-8bb1-a219a3f5c2c9"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Concentration in Sports Nutrition">
+      <bounds
+          x="24"
+          y="204"
+          width="135"
+          height="70"/>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="6171858e-349e-4b55-8ac6-a2e36303a843"
+        name="Sticky"
+        targetConnections="bd77e091-b56a-4d07-adbe-976a9a0c6b32"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Minor in Biology">
+      <bounds
+          x="24"
+          y="36"
+          width="135"
+          height="70"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+      name="Sticky"
+      targetConnections="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40 337acee7-43ac-46ea-b628-0bc90d6c30ab"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#b5ffff"
+      content="Bachelor of Engineering">
+    <bounds
+        x="492"
+        y="132"
+        width="181"
+        height="216"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="70532e7d-9087-48f4-9dd9-2a3972401edd"
+        name="Sticky"
+        targetConnections="a11997fe-caa7-4843-881c-dd794b3e153e"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Major in Chemical Engineering">
+      <bounds
+          x="24"
+          y="41"
+          width="135"
+          height="70"/>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="812844db-cadf-4fd4-83d7-945888a66dc5"
+        name="Sticky"
+        targetConnections="8440af33-c449-4873-a76c-efa7b28c6c3b 16f1e0ea-848a-4d39-94f7-7f422ec73097"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#80ffff"
+        content="Minor in Biomedical Engineering">
+      <bounds
+          x="24"
+          y="120"
+          width="135"
+          height="70"/>
+    </children>
   </children>
 </archimate:SketchModel>
