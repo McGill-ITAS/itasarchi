@@ -1,0 +1,228 @@
+<archimate:SketchModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Student Access Scenarios"
+    id="abf34d19-ca57-4e1d-a689-c77fd553a3d6"
+    background="0">
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="1364b473-6b11-4e86-a645-43759991bb74"
+      name="Student A's Program"
+      targetConnections="8440af33-c449-4873-a76c-efa7b28c6c3b 03da86ff-4bc0-4b89-a2ae-a4f8a6104b40 a11997fe-caa7-4843-881c-dd794b3e153e">
+    <bounds
+        x="828"
+        y="120"
+        width="374"
+        height="528"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+        name="Sticky"
+        targetConnections="337acee7-43ac-46ea-b628-0bc90d6c30ab"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#b5ffff"
+        content="Bachelor of Engineering">
+      <bounds
+          x="36"
+          y="180"
+          width="181"
+          height="204"/>
+      <children
+          xsi:type="archimate:SketchModelSticky"
+          id="70532e7d-9087-48f4-9dd9-2a3972401edd"
+          name="Sticky"
+          lineColor="#5c5c5c"
+          textAlignment="1"
+          fillColor="#80ffff"
+          content="Major in Chemical Engineering">
+        <bounds
+            x="24"
+            y="41"
+            width="135"
+            height="70"/>
+      </children>
+      <children
+          xsi:type="archimate:SketchModelSticky"
+          id="812844db-cadf-4fd4-83d7-945888a66dc5"
+          name="Sticky"
+          lineColor="#5c5c5c"
+          textAlignment="1"
+          fillColor="#80ffff"
+          content="Minor in Biomedical Engineering">
+        <bounds
+            x="24"
+            y="120"
+            width="135"
+            height="70"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="8d7c5067-60b5-4597-a11b-3aff808680e3"
+        name="Student A">
+      <sourceConnections
+          id="337acee7-43ac-46ea-b628-0bc90d6c30ab"
+          source="8d7c5067-60b5-4597-a11b-3aff808680e3"
+          target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+          type="1"/>
+      <bounds
+          x="288"
+          y="228"
+          width="75"
+          height="100"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="e314c1df-5346-487b-8f72-3056e9d35c7f"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Faculty of Engineering">
+    <bounds
+        x="60"
+        y="120"
+        width="397"
+        height="240"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="084692fe-1345-4ac4-83b9-715d9aaa869d"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Department of Chemical Engineering">
+      <bounds
+          x="24"
+          y="36"
+          width="229"
+          height="180"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="aa523715-b5ee-43a3-a69e-97549a332822"
+          name="Dept Administrator X">
+        <sourceConnections
+            id="a11997fe-caa7-4843-881c-dd794b3e153e"
+            name="authorized by major"
+            source="aa523715-b5ee-43a3-a69e-97549a332822"
+            target="1364b473-6b11-4e86-a645-43759991bb74"
+            type="5"/>
+        <bounds
+            x="50"
+            y="48"
+            width="119"
+            height="100"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="caf31dc8-e967-49ea-a5a4-232225906e6a"
+        name="Faculty Advisor">
+      <sourceConnections
+          id="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40"
+          name="authorized by degree"
+          source="caf31dc8-e967-49ea-a5a4-232225906e6a"
+          target="1364b473-6b11-4e86-a645-43759991bb74"
+          type="5"/>
+      <bounds
+          x="276"
+          y="24"
+          width="97"
+          height="100"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="0c43db1c-8da7-4d96-9733-5d584d256d27"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Interfaculty Studies">
+    <bounds
+        x="60"
+        y="408"
+        width="397"
+        height="240"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="48c9cf96-7f8c-4a9c-aabe-7f8f53673236"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Department of Biomedical  Engineering">
+      <bounds
+          x="24"
+          y="36"
+          width="229"
+          height="180"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="c7a8887e-438a-4455-8262-7cb11c297a2b"
+          name="Dept Adminsitrator Y">
+        <sourceConnections
+            id="8440af33-c449-4873-a76c-efa7b28c6c3b"
+            name="authorized by minor"
+            source="c7a8887e-438a-4455-8262-7cb11c297a2b"
+            target="1364b473-6b11-4e86-a645-43759991bb74"
+            type="5"/>
+        <bounds
+            x="50"
+            y="48"
+            width="119"
+            height="100"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="f6284835-af83-4135-9a16-91c8aa786d10"
+        name="Faculty Advisor?">
+      <sourceConnections
+          id="a927b93d-4f61-46c9-a996-b30394f05c60"
+          name="not authorized (no association)"
+          source="f6284835-af83-4135-9a16-91c8aa786d10"
+          target="7594e6c8-df92-4ff4-a43f-c6f30a6d715c"
+          type="5"/>
+      <bounds
+          x="276"
+          y="24"
+          width="97"
+          height="100"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="7594e6c8-df92-4ff4-a43f-c6f30a6d715c"
+      name="Sticky"
+      targetConnections="a927b93d-4f61-46c9-a996-b30394f05c60"
+      font="1|Segoe UI Black|20.0|0|WINDOWS|1|-40|0|0|0|900|0|0|0|0|3|2|1|34|Segoe UI Black"
+      fontColor="#ff0000"
+      lineColor="#5c5c5c"
+      fillColor="#ffffff"
+      content="X"
+      textPosition="1">
+    <bounds
+        x="782"
+        y="432"
+        width="47"
+        height="48"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="b47c8925-ba8d-4960-be59-9e8a8dff3b70"
+      name="Sticky"
+      font="1|Segoe UI|18.0|1|WINDOWS|1|-36|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#f4f4f4"
+      content="Sample Access Scenarios">
+    <bounds
+        x="60"
+        y="36"
+        width="1142"
+        height="48"/>
+  </children>
+</archimate:SketchModel>
