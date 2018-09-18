@@ -1,12 +1,12 @@
 <archimate:SketchModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Scenarios of Student Scope by Staff Org"
-    id="abf34d19-ca57-4e1d-a689-c77fd553a3d6"
+    name="Scenarios of Student Scope by Org and Role"
+    id="4a3ee512-ba85-4040-ba7c-9dbfe8407012"
     background="0">
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="e314c1df-5346-487b-8f72-3056e9d35c7f"
+      id="860a1d31-87e5-4b32-a9a7-6fe9cdd630b8"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -19,7 +19,7 @@
         height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="084692fe-1345-4ac4-83b9-715d9aaa869d"
+        id="f305a476-70e2-4084-b1bd-42916c92cdce"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -32,14 +32,14 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="aa523715-b5ee-43a3-a69e-97549a332822"
+          id="38de575f-0ff9-4860-a4f7-e6700d7a91f1"
           name="Dept Staff">
         <sourceConnections
-            id="a11997fe-caa7-4843-881c-dd794b3e153e"
+            id="51afd25d-f80e-4f38-bbe1-c779d274b508"
             name="authorized via major"
             lineColor="#008000"
-            source="aa523715-b5ee-43a3-a69e-97549a332822"
-            target="70532e7d-9087-48f4-9dd9-2a3972401edd"
+            source="38de575f-0ff9-4860-a4f7-e6700d7a91f1"
+            target="727a4319-521e-4c37-8155-4a855454c4fe"
             type="1"/>
         <bounds
             x="71"
@@ -50,15 +50,20 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="caf31dc8-e967-49ea-a5a4-232225906e6a"
+        id="5e9b80e4-412a-4160-ba55-b459f14f21a2"
         name="Faculty Staff">
       <sourceConnections
-          id="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40"
+          id="2ad921f0-1962-4b90-8da3-6ec2a1e08228"
           name="authorized via degree"
           lineColor="#008000"
-          source="caf31dc8-e967-49ea-a5a4-232225906e6a"
-          target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+          source="5e9b80e4-412a-4160-ba55-b459f14f21a2"
+          target="5e16f51c-9b9c-4108-8672-14978ab5a1f8"
           type="1"/>
+      <sourceConnections
+          id="4a42d431-1c51-467b-88d7-242b1563a0df"
+          name="assigned"
+          source="5e9b80e4-412a-4160-ba55-b459f14f21a2"
+          target="be8113f5-12ea-42cd-b508-63ed5650a755"/>
       <bounds
           x="216"
           y="12"
@@ -68,13 +73,13 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="b47c8925-ba8d-4960-be59-9e8a8dff3b70"
+      id="940a3acc-fd35-4732-808d-354c65a2eb24"
       name="Sticky"
       font="1|Segoe UI|18.0|1|WINDOWS|1|-36|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#f4f4f4"
-      content="General Authorization Model by Departmental Affiliation (no roles)">
+      content="Data Authorization Model by Org and Role">
     <bounds
         x="12"
         y="12"
@@ -83,47 +88,56 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+      id="69fa3c61-73f1-40c4-9b04-0a5ee6cf0f70"
       name="Sticky"
+      targetConnections="a8b753b9-5c03-4572-8c5e-0fc412b1037d a81543d1-2edf-46fe-b2e1-4d4274d5655f bfd2279e-ed0e-40e3-9cbd-3b5860d6828c"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ddffff"
       content="Student A Record">
-    <sourceConnections
-        id="337acee7-43ac-46ea-b628-0bc90d6c30ab"
-        name="registered"
-        source="29620d44-4ab6-47be-9c6b-7784ed8977a1"
-        target="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
-        type="2"/>
     <bounds
-        x="768"
+        x="744"
         y="204"
         width="135"
-        height="70"/>
+        height="97"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="be40bbe2-a610-4f51-9ef0-096be0277edd"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ddffff"
+        content="AEHE Applicant">
+      <bounds
+          x="12"
+          y="24"
+          width="73"
+          height="61"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="56acb314-384e-4ad4-96d8-806b834f18e3"
+      id="e507efb9-596e-48b7-815e-36df5f589c6e"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ddffff"
       content="Student B Record">
     <sourceConnections
-        id="5ae71b17-2472-4846-886a-0525acf0da48"
+        id="d871d208-d9d4-4b04-a147-2995fb60f54f"
         name="registered"
-        source="56acb314-384e-4ad4-96d8-806b834f18e3"
-        target="01f6be3a-fcf7-4786-9181-56436171c095"
+        source="e507efb9-596e-48b7-815e-36df5f589c6e"
+        target="456e8d3d-170d-4fcf-b260-477a05adf8cf"
         type="2"/>
     <bounds
-        x="768"
-        y="672"
+        x="744"
+        y="780"
         width="135"
         height="70"/>
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="1f098b0d-990a-4e0c-abbc-29f6fd603c43"
+      id="0558f017-50f2-46e0-9689-884cafd1a69d"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -136,7 +150,7 @@
         height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="e6c14d70-4fa7-4413-bb6a-4adc34d4c1de"
+        id="2c758a2a-7aae-4e9a-9b2a-7c9fac1976d5"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -149,20 +163,30 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="96a3c4c9-3838-4115-9539-540a30d0675c"
+          id="c4e0671a-74b7-4563-acc8-425bae0d8c9a"
           name="Dept Staff">
         <sourceConnections
-            id="8440af33-c449-4873-a76c-efa7b28c6c3b"
+            id="9a94ec24-bbc9-400c-8154-a38a4bae92eb"
             name="authorized via minor"
             lineColor="#008000"
-            source="96a3c4c9-3838-4115-9539-540a30d0675c"
-            target="812844db-cadf-4fd4-83d7-945888a66dc5"
+            source="c4e0671a-74b7-4563-acc8-425bae0d8c9a"
+            target="dd54bcd1-c2dc-41a8-8a18-2a41a6429fa0"
             type="1">
           <bendpoints
               startX="434"
               startY="19"
               endX="-6"
               endY="86"/>
+        </sourceConnections>
+        <sourceConnections
+            id="c3787a67-959e-40b2-a827-8bcb42c2e0b8"
+            source="c4e0671a-74b7-4563-acc8-425bae0d8c9a"
+            target="2396b7db-fe8d-4f0a-bcf7-5ee28402db1a">
+          <bendpoints
+              startX="1"
+              startY="78"
+              endX="-667"
+              endY="1"/>
         </sourceConnections>
         <bounds
             x="71"
@@ -173,16 +197,26 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
+        id="735139d8-24f3-43d1-adae-3583e069c852"
         name="Faculty Staff">
       <sourceConnections
-          id="16f1e0ea-848a-4d39-94f7-7f422ec73097"
+          id="ec13b10a-c190-42e2-890c-26a105d1f73f"
           name="authorized via dept. link?"
           fontColor="#800000"
           lineColor="#ff0000"
-          source="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
-          target="812844db-cadf-4fd4-83d7-945888a66dc5"
+          source="735139d8-24f3-43d1-adae-3583e069c852"
+          target="dd54bcd1-c2dc-41a8-8a18-2a41a6429fa0"
           type="18"/>
+      <sourceConnections
+          id="ac108c6e-f07d-4ad6-9442-fe3414ecf9ec"
+          name="assigned"
+          source="735139d8-24f3-43d1-adae-3583e069c852"
+          target="2396b7db-fe8d-4f0a-bcf7-5ee28402db1a">
+        <bendpoints
+            startY="126"
+            endX="-547"
+            endY="1"/>
+      </sourceConnections>
       <bounds
           x="216"
           y="12"
@@ -192,7 +226,7 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="6928effd-1cb1-4ce9-9675-a5fffc02a0a9"
+      id="64a48c24-835e-45fa-8a81-f678922aef33"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -205,7 +239,7 @@
         height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="a6ab396b-54ed-4ae1-9677-625f45da3b38"
+        id="1d72f194-7196-4def-abce-b61720898879"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -218,14 +252,14 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="9313194a-4d76-46ac-aedc-9c198575a5a8"
+          id="9be21343-7f5b-4edd-a095-adae96007017"
           name="Dept Admin">
         <sourceConnections
-            id="bd77e091-b56a-4d07-adbe-976a9a0c6b32"
+            id="dd9f239d-f3a8-44e7-b0f1-182b83bc3b75"
             name="authorized via minor"
             lineColor="#008000"
-            source="9313194a-4d76-46ac-aedc-9c198575a5a8"
-            target="6171858e-349e-4b55-8ac6-a2e36303a843"
+            source="9be21343-7f5b-4edd-a095-adae96007017"
+            target="88ea492a-0add-4beb-ad7f-079e5d609760"
             type="1">
           <bendpoints
               startX="266"
@@ -247,14 +281,14 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="46e0131c-078e-4c87-81ac-0aec37b6032a"
+        id="da067ad2-cb03-4b3c-bc29-63ca9a50a01b"
         name="Faculty Staff">
       <sourceConnections
-          id="b0cfc55f-0c41-4708-ac0d-3d4011f1c448"
+          id="4cae8ee7-67e0-4cd9-a168-25c6b8dcb5e9"
           name="authorized via degree"
           lineColor="#008000"
-          source="46e0131c-078e-4c87-81ac-0aec37b6032a"
-          target="01f6be3a-fcf7-4786-9181-56436171c095"
+          source="da067ad2-cb03-4b3c-bc29-63ca9a50a01b"
+          target="456e8d3d-170d-4fcf-b260-477a05adf8cf"
           type="1">
         <bendpoints
             startX="288"
@@ -271,7 +305,7 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="2b0044dc-6a65-495c-895e-15852dd86e52"
+      id="93d26ff0-d843-4974-a2fa-6d8141d10c90"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -284,7 +318,7 @@
         height="264"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="68fe50ff-e611-4cdb-9b74-2d8f89a03129"
+        id="f4172534-3cc2-4b2b-b20c-6ca150583427"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -297,14 +331,14 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="daf05cea-ec33-473d-a75e-8f446bb06eb3"
+          id="7e621c37-ebb0-49d3-a9c5-18feb08aab59"
           name="Dept Staff">
         <sourceConnections
-            id="5a03841c-846b-46e2-b778-03165cd18e15"
+            id="3a9f0fdd-a667-491d-92c3-7a492c202821"
             name="authorized via major"
             lineColor="#008000"
-            source="daf05cea-ec33-473d-a75e-8f446bb06eb3"
-            target="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+            source="7e621c37-ebb0-49d3-a9c5-18feb08aab59"
+            target="d527c108-9c50-4943-86ea-1677b161fed4"
             type="1"/>
         <bounds
             x="71"
@@ -315,15 +349,15 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="b1b3cdd3-0b05-476c-b852-e230ceb65275"
+        id="b6f58dcb-4318-4172-b9f5-40d01b925088"
         name="Faculty Staff">
       <sourceConnections
-          id="b94c408d-c2c1-4047-b270-230fd73a5cf8"
+          id="f462a4c7-4ed5-4ddf-be97-3936471bf350"
           name="auth via dept link?"
           fontColor="#800000"
           lineColor="#ff0000"
-          source="b1b3cdd3-0b05-476c-b852-e230ceb65275"
-          target="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+          source="b6f58dcb-4318-4172-b9f5-40d01b925088"
+          target="d527c108-9c50-4943-86ea-1677b161fed4"
           type="18"/>
       <bounds
           x="216"
@@ -333,7 +367,7 @@
     </children>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="37df1666-4542-4215-b34d-863335a1dac9"
+        id="0bb651f9-f29a-4526-9c27-6a833f9ddf80"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -346,7 +380,7 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="3f4a5c90-3416-4a94-b492-5f1e6c0b1e59"
+          id="50590a3b-c46a-455d-ab88-541914c1f637"
           name="Dept Staff">
         <bounds
             x="71"
@@ -358,21 +392,28 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="27fe6467-d7a6-406b-ab74-610205425b1b"
+      id="be8113f5-12ea-42cd-b508-63ed5650a755"
       name="Sticky"
+      targetConnections="4a42d431-1c51-467b-88d7-242b1563a0df"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffc400"
       content="AEHE Admininstrator">
+    <sourceConnections
+        id="a81543d1-2edf-46fe-b2e1-4d4274d5655f"
+        name="access"
+        source="be8113f5-12ea-42cd-b508-63ed5650a755"
+        target="69fa3c61-73f1-40c4-9b04-0a5ee6cf0f70"
+        type="3"/>
     <bounds
-        x="924"
-        y="180"
-        width="135"
-        height="70"/>
+        x="744"
+        y="72"
+        width="109"
+        height="61"/>
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="7b453cd4-2238-41b7-9ef8-396b4eeeaeed"
+      id="9a924cdf-db12-46d6-8dc4-ba061a50da63"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -386,21 +427,28 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="02e3af39-7005-4ddf-8d05-6badfa0c591c"
+      id="2396b7db-fe8d-4f0a-bcf7-5ee28402db1a"
       name="Sticky"
+      targetConnections="c3787a67-959e-40b2-a827-8bcb42c2e0b8 ac108c6e-f07d-4ad6-9442-fe3414ecf9ec"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffc400"
       content="Student Advisor">
+    <sourceConnections
+        id="bfd2279e-ed0e-40e3-9cbd-3b5860d6828c"
+        name="access"
+        source="2396b7db-fe8d-4f0a-bcf7-5ee28402db1a"
+        target="69fa3c61-73f1-40c4-9b04-0a5ee6cf0f70"
+        type="3"/>
     <bounds
-        x="924"
-        y="96"
+        x="744"
+        y="396"
         width="135"
         height="70"/>
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="d667d694-f5ae-4ab4-8fc7-ed77349c487f"
+      id="b725e7f1-679f-4a7e-9229-d7b6c6d62fc9"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -414,7 +462,7 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="834d044d-911a-4e85-9a17-8180b1c36fba"
+      id="e03a315e-8e50-4a40-b3fd-35469221c8aa"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
@@ -428,9 +476,9 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="01f6be3a-fcf7-4786-9181-56436171c095"
+      id="456e8d3d-170d-4fcf-b260-477a05adf8cf"
       name="Sticky"
-      targetConnections="b0cfc55f-0c41-4708-ac0d-3d4011f1c448 5ae71b17-2472-4846-886a-0525acf0da48"
+      targetConnections="d871d208-d9d4-4b04-a147-2995fb60f54f 4cae8ee7-67e0-4cd9-a168-25c6b8dcb5e9"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#b5ffff"
@@ -442,9 +490,9 @@
         height="301"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="d75e45eb-71fe-40af-a2b9-f67b9138483f"
+        id="d527c108-9c50-4943-86ea-1677b161fed4"
         name="Sticky"
-        targetConnections="5a03841c-846b-46e2-b778-03165cd18e15 b94c408d-c2c1-4047-b270-230fd73a5cf8"
+        targetConnections="3a9f0fdd-a667-491d-92c3-7a492c202821 f462a4c7-4ed5-4ddf-be97-3936471bf350"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#80ffff"
@@ -457,7 +505,7 @@
     </children>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="19fe5123-8bc1-4ece-8bb1-a219a3f5c2c9"
+        id="18627651-b018-41a0-8848-a1a464b04997"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
@@ -471,9 +519,9 @@
     </children>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="6171858e-349e-4b55-8ac6-a2e36303a843"
+        id="88ea492a-0add-4beb-ad7f-079e5d609760"
         name="Sticky"
-        targetConnections="bd77e091-b56a-4d07-adbe-976a9a0c6b32"
+        targetConnections="dd9f239d-f3a8-44e7-b0f1-182b83bc3b75"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#80ffff"
@@ -487,13 +535,19 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+      id="5e16f51c-9b9c-4108-8672-14978ab5a1f8"
       name="Sticky"
-      targetConnections="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40 337acee7-43ac-46ea-b628-0bc90d6c30ab"
+      targetConnections="2ad921f0-1962-4b90-8da3-6ec2a1e08228"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#b5ffff"
       content="Bachelor of Engineering">
+    <sourceConnections
+        id="a8b753b9-5c03-4572-8c5e-0fc412b1037d"
+        name="registered"
+        source="5e16f51c-9b9c-4108-8672-14978ab5a1f8"
+        target="69fa3c61-73f1-40c4-9b04-0a5ee6cf0f70"
+        type="2"/>
     <bounds
         x="492"
         y="132"
@@ -501,9 +555,9 @@
         height="216"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="70532e7d-9087-48f4-9dd9-2a3972401edd"
+        id="727a4319-521e-4c37-8155-4a855454c4fe"
         name="Sticky"
-        targetConnections="a11997fe-caa7-4843-881c-dd794b3e153e"
+        targetConnections="51afd25d-f80e-4f38-bbe1-c779d274b508"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#80ffff"
@@ -516,9 +570,9 @@
     </children>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="812844db-cadf-4fd4-83d7-945888a66dc5"
+        id="dd54bcd1-c2dc-41a8-8a18-2a41a6429fa0"
         name="Sticky"
-        targetConnections="8440af33-c449-4873-a76c-efa7b28c6c3b 16f1e0ea-848a-4d39-94f7-7f422ec73097"
+        targetConnections="9a94ec24-bbc9-400c-8154-a38a4bae92eb ec13b10a-c190-42e2-890c-26a105d1f73f"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#80ffff"
@@ -529,5 +583,19 @@
           width="135"
           height="70"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="f7253ad5-8deb-4bb8-95d3-87d50a459785"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="Determining student information scope:&#xD;&#xA;* Am I part of an academic unit?&#xD;&#xA;* Do I have a job that involves work with students?&#xD;&#xA;* Does my involvement extend to students beyond my scope? Is it persistent or temporary?&#xD;&#xA;&#xD;&#xA;Determine type of student information access is required:&#xD;&#xA;* What is/are my role(s) with students?">
+    <bounds
+        x="744"
+        y="552"
+        width="313"
+        height="181"/>
   </children>
 </archimate:SketchModel>
