@@ -1,7 +1,7 @@
 <archimate:SpecializationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="specialization of"
+    name="defined as"
     id="25b6b9cd-858f-41ea-8c14-81ddc4ab2336">
   <source
       xsi:type="archimate:DataObject"

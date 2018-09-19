@@ -1,12 +1,12 @@
-<archimate:SpecializationRelationship
+<archimate:AggregationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="defines"
-    id="e682652c-a572-439e-a3f5-7777c2abe428">
+    name="may include"
+    id="0220faf2-78be-451b-a10d-b1cf625f8d08">
   <source
       xsi:type="archimate:DataObject"
       href="DataObject_09bf3d62-3c6f-4ece-b4f7-4fa3d73c2a7b.xml#09bf3d62-3c6f-4ece-b4f7-4fa3d73c2a7b"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_89373c67-2fd5-4504-b188-8eb3eb282597.xml#89373c67-2fd5-4504-b188-8eb3eb282597"/>
-</archimate:SpecializationRelationship>
+      href="DataObject_4dbb6f1a-ceb9-47d0-a51c-e3365f1e26df.xml#4dbb6f1a-ceb9-47d0-a51c-e3365f1e26df"/>
+</archimate:AggregationRelationship>

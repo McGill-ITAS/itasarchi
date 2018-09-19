@@ -1,7 +1,7 @@
 <archimate:AggregationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="involves"
+    name="may involve"
     id="6a9d9887-95d0-4c39-9db2-7ba812d0c92e">
   <source
       xsi:type="archimate:DataObject"
