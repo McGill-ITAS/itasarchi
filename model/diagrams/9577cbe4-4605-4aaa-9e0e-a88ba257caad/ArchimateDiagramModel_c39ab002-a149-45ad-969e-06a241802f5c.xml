@@ -146,12 +146,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="0c953874-7d0e-4342-8e31-edadf800d452"
+        id="621f0374-e5d8-44ee-94d2-662bc8fe615b"
         source="e4d47644-fed4-45a2-98e8-3d3d9df4bfc6"
         target="05223039-c2f0-46aa-8706-1971c9e14bc1">
       <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_0b9ec2ed-0eb2-4895-ad24-2865a3229fec.xml#0b9ec2ed-0eb2-4895-ad24-2865a3229fec"/>
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_f642a8b0-f555-459b-9507-277a2567d105.xml#f642a8b0-f555-459b-9507-277a2567d105"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -300,8 +300,8 @@
       id="100200f8-28f9-4e70-9211-9f2882a4ecfd"
       targetConnections="c77fa514-da06-40ea-8e98-47380dbd1e46">
     <bounds
-        x="24"
-        y="382"
+        x="25"
+        y="396"
         width="121"
         height="61"/>
     <archimateElement
@@ -311,7 +311,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="05223039-c2f0-46aa-8706-1971c9e14bc1"
-      targetConnections="3da95219-45a0-4ad3-85b4-b345f3fb9991 4d3e81ad-6148-4240-bf02-f6c9ab553778 a3133710-f748-4fb5-b54f-416b3c5a1a6e 0c953874-7d0e-4342-8e31-edadf800d452 0f7f745d-2fc2-4e50-9cae-0d198986ffea">
+      targetConnections="3da95219-45a0-4ad3-85b4-b345f3fb9991 4d3e81ad-6148-4240-bf02-f6c9ab553778 a3133710-f748-4fb5-b54f-416b3c5a1a6e 0f7f745d-2fc2-4e50-9cae-0d198986ffea 621f0374-e5d8-44ee-94d2-662bc8fe615b">
     <bounds
         x="168"
         y="288"
@@ -347,8 +347,8 @@
           href="SpecializationRelationship_feb5a1fb-0507-4884-a118-3a93ab0c1ec2.xml#feb5a1fb-0507-4884-a118-3a93ab0c1ec2"/>
     </sourceConnections>
     <bounds
-        x="167"
-        y="382"
+        x="168"
+        y="396"
         width="121"
         height="61"/>
     <archimateElement
@@ -377,8 +377,8 @@
           href="SpecializationRelationship_4a144bc8-2a3b-4a95-8da8-9c6da67f05ae.xml#4a144bc8-2a3b-4a95-8da8-9c6da67f05ae"/>
     </sourceConnections>
     <bounds
-        x="311"
-        y="382"
+        x="312"
+        y="396"
         width="121"
         height="61"/>
     <archimateElement
@@ -411,8 +411,8 @@
           href="SpecializationRelationship_24b1f23f-a9c0-429d-8bf8-32846b476285.xml#24b1f23f-a9c0-429d-8bf8-32846b476285"/>
     </sourceConnections>
     <bounds
-        x="455"
-        y="382"
+        x="456"
+        y="396"
         width="121"
         height="61"/>
     <archimateElement
