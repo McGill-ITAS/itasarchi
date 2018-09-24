@@ -1,17 +1,17 @@
 <archimate:SketchModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Student Record Entitlement - Multiple Faculties"
-    id="abf34d19-ca57-4e1d-a689-c77fd553a3d6"
+    name="Student Record Entitlement - Multiple Primary Faculties"
+    id="e13d09e3-31ad-4e33-8f5b-2ee5f9b5c5af"
     background="0">
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="e314c1df-5346-487b-8f72-3056e9d35c7f"
+      id="8b06cd0c-01f0-40a6-bcff-6b942c679c09"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffff00"
-      content="Faculty of Engineering (Primary)">
+      content="Faculty of Medicine (Primary)">
     <bounds
         x="12"
         y="96"
@@ -19,12 +19,12 @@
         height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="084692fe-1345-4ac4-83b9-715d9aaa869d"
+        id="14c780ae-a628-4fb2-9acd-54ca1f8bbddd"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#ffff00"
-        content="Dept. of Chemical Engineering (Primary)">
+        content="Educational Services">
       <bounds
           x="24"
           y="36"
@@ -32,14 +32,14 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="aa523715-b5ee-43a3-a69e-97549a332822"
+          id="254a3253-0e97-41a8-8e23-83fa8df17e64"
           name="Dept Staff">
         <sourceConnections
-            id="a11997fe-caa7-4843-881c-dd794b3e153e"
+            id="575a1e45-9159-4002-ace6-9290e2b8db2c"
             name="authorized via major"
             lineColor="#008000"
-            source="aa523715-b5ee-43a3-a69e-97549a332822"
-            target="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+            source="254a3253-0e97-41a8-8e23-83fa8df17e64"
+            target="10d27354-7888-409b-a0c6-e69c1d489080"
             type="1"/>
         <bounds
             x="71"
@@ -50,14 +50,14 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="caf31dc8-e967-49ea-a5a4-232225906e6a"
+        id="fc960543-68ed-4a58-8323-85272f5caf5f"
         name="Faculty Staff">
       <sourceConnections
-          id="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40"
+          id="3517c0dd-7b4a-4473-8ea3-10cfcc1f69e9"
           name="authorized via degree"
           lineColor="#008000"
-          source="caf31dc8-e967-49ea-a5a4-232225906e6a"
-          target="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+          source="fc960543-68ed-4a58-8323-85272f5caf5f"
+          target="10d27354-7888-409b-a0c6-e69c1d489080"
           type="1"/>
       <bounds
           x="216"
@@ -68,13 +68,13 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="b47c8925-ba8d-4960-be59-9e8a8dff3b70"
+      id="7f649dc5-ac11-4264-a20d-536c698821b4"
       name="Sticky"
       font="1|Segoe UI|18.0|1|WINDOWS|1|-36|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#f4f4f4"
-      content="Student Record Entitlement - Multiple Faculties">
+      content="Student Record Entitlement - Multiple Primary Faculties">
     <bounds
         x="12"
         y="12"
@@ -83,9 +83,9 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="29620d44-4ab6-47be-9c6b-7784ed8977a1"
+      id="10d27354-7888-409b-a0c6-e69c1d489080"
       name="Sticky"
-      targetConnections="03da86ff-4bc0-4b89-a2ae-a4f8a6104b40 a11997fe-caa7-4843-881c-dd794b3e153e 16f1e0ea-848a-4d39-94f7-7f422ec73097 8440af33-c449-4873-a76c-efa7b28c6c3b"
+      targetConnections="575a1e45-9159-4002-ace6-9290e2b8db2c 3517c0dd-7b4a-4473-8ea3-10cfcc1f69e9 efcfb0ee-7d88-4368-b748-b4b25235999d 9757af94-47aa-4534-83ac-bd70a6cab6ba"
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ff0000"
@@ -94,15 +94,15 @@
         x="600"
         y="108"
         width="205"
-        height="301"/>
+        height="481"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="7aa6ecb0-aa58-4f61-9111-c110ad472dd1"
+        id="80fe0552-ebdb-4d91-9d95-433c257abf8b"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
         fillColor="#b5ffff"
-        content="Bachelor of Engineering">
+        content="MBA / MDCM">
       <bounds
           x="12"
           y="48"
@@ -110,7 +110,7 @@
           height="216"/>
       <children
           xsi:type="archimate:SketchModelSticky"
-          id="70532e7d-9087-48f4-9dd9-2a3972401edd"
+          id="1de45c4b-d3c1-4295-b4ec-1fc8301e7ee5"
           name="Sticky"
           lineColor="#5c5c5c"
           textAlignment="1"
@@ -124,7 +124,7 @@
       </children>
       <children
           xsi:type="archimate:SketchModelSticky"
-          id="812844db-cadf-4fd4-83d7-945888a66dc5"
+          id="140afca8-589c-42ce-992e-eec62c5fe8fb"
           name="Sticky"
           lineColor="#5c5c5c"
           textAlignment="1"
@@ -140,12 +140,12 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="1f098b0d-990a-4e0c-abbc-29f6fd603c43"
+      id="fc9717ef-de8b-48ee-b6c2-f3b09bea27e4"
       name="Sticky"
       lineColor="#5c5c5c"
       textAlignment="1"
-      fillColor="#ffffcc"
-      content="Faculty of Medicine">
+      fillColor="#ffff00"
+      content="Desautels Faculty of Management (Primary)">
     <bounds
         x="12"
         y="264"
@@ -153,11 +153,11 @@
         height="156"/>
     <children
         xsi:type="archimate:SketchModelSticky"
-        id="e6c14d70-4fa7-4413-bb6a-4adc34d4c1de"
+        id="eced8ef0-ffd2-4c37-99b0-887562cdb040"
         name="Sticky"
         lineColor="#5c5c5c"
         textAlignment="1"
-        fillColor="#ffffcc"
+        fillColor="#ffff00"
         content="Dept. of Biomedical Engineering">
       <bounds
           x="24"
@@ -166,15 +166,15 @@
           height="96"/>
       <children
           xsi:type="archimate:SketchModelActor"
-          id="96a3c4c9-3838-4115-9539-540a30d0675c"
+          id="11bba7c2-e4d2-4a54-a455-6bf0a372a00d"
           name="Dept Staff">
         <sourceConnections
-            id="8440af33-c449-4873-a76c-efa7b28c6c3b"
+            id="efcfb0ee-7d88-4368-b748-b4b25235999d"
             name="authorized via minor"
             lineColor="#008000"
-            source="96a3c4c9-3838-4115-9539-540a30d0675c"
-            target="29620d44-4ab6-47be-9c6b-7784ed8977a1"
-            type="16"/>
+            source="11bba7c2-e4d2-4a54-a455-6bf0a372a00d"
+            target="10d27354-7888-409b-a0c6-e69c1d489080"
+            type="1"/>
         <bounds
             x="71"
             y="24"
@@ -184,16 +184,16 @@
     </children>
     <children
         xsi:type="archimate:SketchModelActor"
-        id="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
+        id="761bf28c-8abf-40d8-8c7d-1a39ecbf5ae5"
         name="Faculty Staff">
       <sourceConnections
-          id="16f1e0ea-848a-4d39-94f7-7f422ec73097"
+          id="9757af94-47aa-4534-83ac-bd70a6cab6ba"
           name="authorized via dept. relationship"
           fontColor="#000000"
           lineColor="#008000"
-          source="8b1e0dcf-a6fb-47df-952f-9ad0662188d3"
-          target="29620d44-4ab6-47be-9c6b-7784ed8977a1"
-          type="16"/>
+          source="761bf28c-8abf-40d8-8c7d-1a39ecbf5ae5"
+          target="10d27354-7888-409b-a0c6-e69c1d489080"
+          type="1"/>
       <bounds
           x="216"
           y="12"
@@ -203,7 +203,7 @@
   </children>
   <children
       xsi:type="archimate:SketchModelSticky"
-      id="54457425-3e0a-4da5-993a-ac246adab279"
+      id="7bb7635b-446c-4ca6-886e-8f345e620da5"
       name="Sticky"
       font="1|Calibri|9.0|2|WINDOWS|1|-12|0|0|0|400|-1|0|0|0|3|2|1|34|Calibri"
       lineColor="#5c5c5c"

@@ -1,0 +1,187 @@
+<archimate:SketchModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Student Record Entitlement - Single Faculty"
+    id="cae2ff38-8001-40fe-b90d-625e3a11d0c2"
+    background="0">
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="1fb0091b-6caa-4d82-8c09-9532eea78934"
+      name="Sticky"
+      font="1|Segoe UI|18.0|1|WINDOWS|1|-36|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#f4f4f4"
+      content="Student Record Entitlement - Single Faculty">
+    <bounds
+        x="12"
+        y="12"
+        width="697"
+        height="48"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="62ebed80-a265-4c5d-b45f-b97d0c41a5c8"
+      name="Sticky"
+      targetConnections="782e3e4a-dd08-4e5f-9983-cabf3ce630c9 4885b2e8-2461-47d9-a3ab-ebdb3d406789 fba5531d-2f8b-440e-9dca-4f4f4ed5dd9a"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ff0000"
+      content="Student Record">
+    <bounds
+        x="504"
+        y="108"
+        width="205"
+        height="265"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="59f8d98a-9907-4f1a-a1f4-15463bdcbae6"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#b5ffff"
+        content="Bachelor of Science">
+      <bounds
+          x="12"
+          y="36"
+          width="181"
+          height="205"/>
+      <children
+          xsi:type="archimate:SketchModelSticky"
+          id="87446326-6676-4d48-bfa2-10b4970e42a6"
+          name="Sticky"
+          lineColor="#5c5c5c"
+          textAlignment="1"
+          fillColor="#80ffff"
+          content="Major in Physics">
+        <bounds
+            x="24"
+            y="36"
+            width="135"
+            height="70"/>
+      </children>
+      <children
+          xsi:type="archimate:SketchModelSticky"
+          id="dccfade8-3ae0-4fb6-ac06-68e28b270332"
+          name="Sticky"
+          lineColor="#5c5c5c"
+          textAlignment="1"
+          fillColor="#80ffff"
+          content="Minor in Mathematics">
+        <bounds
+            x="24"
+            y="120"
+            width="135"
+            height="70"/>
+      </children>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="e570b15b-39b1-4c8a-a653-6e2704454591"
+      name="Sticky"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffff00"
+      content="Faculty of Science">
+    <bounds
+        x="12"
+        y="108"
+        width="313"
+        height="264"/>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="6657d19f-4c44-4b3d-8363-6d413414905a"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffff00"
+        content="Dept. of Physics (Primary)">
+      <bounds
+          x="24"
+          y="36"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="59f3326a-adb4-49fd-8dc3-e14ca71cddb9"
+          name="Dept Staff">
+        <sourceConnections
+            id="782e3e4a-dd08-4e5f-9983-cabf3ce630c9"
+            name="authorized via major"
+            lineColor="#008000"
+            source="59f3326a-adb4-49fd-8dc3-e14ca71cddb9"
+            target="62ebed80-a265-4c5d-b45f-b97d0c41a5c8"
+            type="1"/>
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelActor"
+        id="d58c1432-5519-4bf1-af93-5a0736591ef3"
+        name="Faculty Staff">
+      <sourceConnections
+          id="4885b2e8-2461-47d9-a3ab-ebdb3d406789"
+          name="authorized via degree"
+          lineColor="#008000"
+          source="d58c1432-5519-4bf1-af93-5a0736591ef3"
+          target="62ebed80-a265-4c5d-b45f-b97d0c41a5c8"
+          type="1"/>
+      <bounds
+          x="216"
+          y="12"
+          width="73"
+          height="60"/>
+    </children>
+    <children
+        xsi:type="archimate:SketchModelSticky"
+        id="3934c8ae-d736-4299-8645-57fda2a1a768"
+        name="Sticky"
+        lineColor="#5c5c5c"
+        textAlignment="1"
+        fillColor="#ffffcc"
+        content="Dept. of Mathematics">
+      <bounds
+          x="24"
+          y="144"
+          width="169"
+          height="96"/>
+      <children
+          xsi:type="archimate:SketchModelActor"
+          id="ad05e88b-21ac-4365-a629-0dc9b6b20396"
+          name="Dept Staff">
+        <sourceConnections
+            id="fba5531d-2f8b-440e-9dca-4f4f4ed5dd9a"
+            name="authorized via minor"
+            lineColor="#008000"
+            source="ad05e88b-21ac-4365-a629-0dc9b6b20396"
+            target="62ebed80-a265-4c5d-b45f-b97d0c41a5c8"
+            type="1"/>
+        <bounds
+            x="71"
+            y="24"
+            width="73"
+            height="60"/>
+      </children>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelSticky"
+      id="6385ec09-5238-452a-9f2f-738081395ec9"
+      name="Sticky"
+      font="1|Calibri|9.0|2|WINDOWS|1|-12|0|0|0|400|-1|0|0|0|3|2|1|34|Calibri"
+      lineColor="#5c5c5c"
+      textAlignment="1"
+      fillColor="#ffffff"
+      content="For staff positions involving students">
+    <bounds
+        x="12"
+        y="60"
+        width="697"
+        height="25"/>
+  </children>
+</archimate:SketchModel>
