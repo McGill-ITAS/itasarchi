@@ -94,7 +94,7 @@
         x="600"
         y="108"
         width="205"
-        height="481"/>
+        height="313"/>
     <children
         xsi:type="archimate:SketchModelSticky"
         id="80fe0552-ebdb-4d91-9d95-433c257abf8b"
@@ -110,26 +110,26 @@
           height="216"/>
       <children
           xsi:type="archimate:SketchModelSticky"
-          id="1de45c4b-d3c1-4295-b4ec-1fc8301e7ee5"
-          name="Sticky"
-          lineColor="#5c5c5c"
-          textAlignment="1"
-          fillColor="#80ffff"
-          content="Major in Chemical Engineering">
-        <bounds
-            x="24"
-            y="41"
-            width="135"
-            height="70"/>
-      </children>
-      <children
-          xsi:type="archimate:SketchModelSticky"
           id="140afca8-589c-42ce-992e-eec62c5fe8fb"
           name="Sticky"
           lineColor="#5c5c5c"
           textAlignment="1"
           fillColor="#80ffff"
-          content="Minor in Biomedical Engineering">
+          content="M.B.A">
+        <bounds
+            x="24"
+            y="36"
+            width="135"
+            height="70"/>
+      </children>
+      <children
+          xsi:type="archimate:SketchModelSticky"
+          id="1de45c4b-d3c1-4295-b4ec-1fc8301e7ee5"
+          name="Sticky"
+          lineColor="#5c5c5c"
+          textAlignment="1"
+          fillColor="#80ffff"
+          content="M.D.C.M.">
         <bounds
             x="24"
             y="120"
